@@ -1,0 +1,144 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masala Shopping</title>
+    <link rel="icon" href="spicelogo.JPG">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="spicelogo.JPG" width="150px">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                  <img src="cart.JPG" width="30px" height="30px">
+                  <img src="menu.JPG" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Lets Shop the<br>Spices</h1>
+                    <p>Shop Masalas Spices at  Best Online Shopping Store. Check Price and Buy Online.<br>Spices Shopping</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="spices.JPG">
+                </div>
+            </div>
+        </div>
+        </div>
+            <div class="small-container">
+                <h2 class="title">Spices</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="clove.JPG">
+                        <h4>Clove</h4>
+                        <p>$50.00</p>
+                        <a href="" class="btn">Buy Now</a>
+                    </div>
+                        <div class="col-4">
+                            <img src="staranise.JPG">
+                            <h4>Start Anise</h4>
+                            <p>$50.00</p>
+                            <a href="" class="btn">Buy Now</a>
+                        </div>
+                            <div class="col-4">
+                                <img src="pepper.JPG">
+                                <h4>Black Pepper</h4>
+                                <p>$50.00</p>
+                                <a href="" class="btn">Buy Now</a>
+                            </div>
+                                <div class="col-4">
+                                    <img src="cumin.JPG">
+                                    <h4>Cumin</h4>
+                                    <p>$50.00</p>
+                                    <a href="" class="btn">Buy Now</a>
+                                </div>
+                    <div class="col-4">
+                        <img src="mustard.JPG">
+                        <h4>Mustared Seeds</h4>
+                        <p>$50.00</p>
+                        <a href="" class="btn">Buy Now</a>
+                    </div>
+                        <div class="col-4">
+                            <img src="fragrantpepper.JPG">
+                            <h4>Fragnant Pepper</h4>
+                            <p>$50.00</p>
+                            <a href="" class="btn">Buy Now</a>
+                        </div>
+                            <div class="col-4">
+                                <img src="coriander.JPG">
+                                <h4>Coriander Seeds</h4>
+                                <p>$50.00</p>
+                                <a href="" class="btn">Buy Now</a>
+                            </div>
+                                <div class="col-4">
+                                    <img src="saffron.JPG">
+                                    <h4>Saffron</h4>
+                                    <p>$50.00</p>
+                                    <a href="" class="btn">Buy Now</a>
+                                </div>
+                              </div>
+                            </div>
+<!--     Footer     -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="spicelogo.JPG">
+                <p>Our Purpose Is To Substainably buy the best masalas</p>
+            </div>
+            <div class="footer-col-2">
+                <h3>Contact With Us</h3>
+                <ul>
+                    <li><i class="fa fa-facebook-official"></i>&nbsp; &nbsp;Facebook</li>
+                    <li><i class="fa fa-twitter-square"></i>&nbsp; &nbsp;Twitter</li>
+                    <li><i class="fa fa-instagram"></i>&nbsp; &nbsp;Instagram</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Get To Know Us</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Let Us Help You</h3>
+                <ul>
+                    <li>Payment Method</li>
+                    <li>Return and Complaints</li>
+                    <li>Terms Of Use</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+   <script>
+       var menuitems = document.getElementById("menuitems");
+       menuitems.style.maxHeight="0px";
+       function menutoggle(){
+           if(menuitems.style.maxHeight == "0px")
+           {
+            menuitems.style.maxHeight="200px";
+           }
+       else{
+        menuitems.style.maxHeight="0px";
+       }
+       }
+   </script>
+    </body>
+</html>
